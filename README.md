@@ -16,7 +16,7 @@
 ---
 
 - Then we load some EDA packages such as: 
-    - `load_datasets`: load and access various NLP datasets
+    - `load_datasets`: loads and access various NLP datasets
 
     - `numpy`: a fundamental library used for tasks involving arrays and matrices 
     
@@ -29,13 +29,13 @@ import numpy as np
 ```
 
 - Next, we import several Python libraries for data visualization and word cloud generation. 
-     - `seaborn`: draw attractive and informative statistical graphics
+     - `seaborn`: draws attractive and informative statistical graphics
 
-     - `wordcloud`: generate word clouds, visual representations of text data where words are displayed in varying sizes, with more frequent words appearing larger
+     - `wordcloud`: generates word clouds, visual representations of text data where words are displayed in varying sizes, with more frequent words appearing larger
 
-     - `matplotlib.pyplot`: create plots and charts
+     - `matplotlib.pyplot`: creates plots and charts
 
-     - `style`: set the visual style of our plots
+     - `style`: sets the visual style of our plots
 
 ```python
 import seaborn as sns
@@ -47,15 +47,15 @@ from wordcloud import WordCloud
 
 - Above all, the task of model building cannot be finished without machine learning libraries. We will use several modules and classes from the `scikit-learn` library. 
 
-    - `CountVectorizer`: convert a given text into a vector based on the number of times each word appears across the entire text. 
+    - `CountVectorizer`: converts a given text into a vector based on the number of times each word appears across the entire text. 
     
-    - `train_test_split`: split a dataset into training and testing subsets. 
+    - `train_test_split`: splits a dataset into training and testing subsets. 
     
-    - `cross_validate`: estimate the performance of machine learning models. 
+    - `cross_validate`: estimates the performance of machine learning models. 
     
    - `DecisionTreeClassifier`: an algorithm for building decision tree-based classification models. 
    
-   - `accuracy_score`: compute the accuracy of classification models. 
+   - `accuracy_score`: computes the accuracy of classification models. 
    
    - `classification_report`: a text report that includes precision, recall, F1-score 
    
@@ -73,7 +73,21 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
     
     - `preprocessor`: useful when working with text data from social media platforms like Twitter.
 
+    - `string`: provides a collection of string constants and functions for text processing. 
+    
+    - `nltk.SnowballStemmer("english")`: the process of reducing words to their root form.
+    
+    - Next we download stopwords dataset and define stopword as a set containing the English stopwords obtained from the NLTK corpus.  
+
 ```python
 import re
 import preprocessor as p
+import string
+import nltk
+from nltk.util import pr
+stemmer = nltk.SnowballStemmer("english")
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+stopword = set(stopwords.words("english"))
 ```
+
