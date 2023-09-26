@@ -20,7 +20,7 @@
 
     - `numpy`: a fundamental library used for tasks involving arrays and matrices 
     
-    - `pandas`: a powerful library for data manipulation and analysis called.
+    - `pandas`: a powerful library for data manipulation and analysis
  
 ```python
 from datasets import load_dataset
