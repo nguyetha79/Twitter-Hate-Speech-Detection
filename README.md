@@ -29,8 +29,6 @@
 
      - `matplotlib.pyplot`: create plots and charts
 
-     - `matplotlib.pyplot`: create plots and charts
-
      - `style`: set the visual style of our plots
 
 ```python
