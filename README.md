@@ -77,7 +77,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
     
     - `nltk.SnowballStemmer("english")`: the process of reducing words to their root form.
     
-    - Next we download stopwords dataset and define stopword as a set containing the English stopwords obtained from the NLTK corpus.  
+    - Next we download `stopwords` dataset and define a set containing the English stopwords obtained from the NLTK corpus.  
 
 ```python
 import re
