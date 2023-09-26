@@ -21,6 +21,12 @@
     - `numpy`: a fundamental library used for tasks involving arrays and matrices 
     
     - `pandas`: a powerful library for data manipulation and analysis called.
+ 
+```python
+from datasets import load_dataset
+import pandas as pd
+import numpy as np
+```
 
 - Next, we import several Python libraries for data visualization and word cloud generation. 
      - `seaborn`: draw attractive and informative statistical graphics
