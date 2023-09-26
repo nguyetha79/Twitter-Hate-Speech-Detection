@@ -62,7 +62,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 ```
 
-- Last but not least, we import some modules and sets up text preprocessing tools. 
+- Last but not least, we import some modules and set up text preprocessing tools. 
     - `Re`: used for pattern matching and text manipulation. 
     
     - `preprocessor`: useful when working with text data from social media platforms like Twitter.
