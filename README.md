@@ -51,7 +51,9 @@ from wordcloud import WordCloud
     
     - `train_test_split`: splits a dataset into training and testing subsets. 
     
-    - `cross_validate`: estimates the performance of machine learning models. 
+    - `cross_validate`: estimates the performance of machine learning models.
+ 
+    - `GridSearchCV`:  the process of performing hyperparameter tuning
     
    - `DecisionTreeClassifier`: an algorithm for building decision tree-based classification models. 
    
@@ -63,7 +65,7 @@ from wordcloud import WordCloud
 
 ```python
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split, cross_validate
+from sklearn.model_selection import train_test_split, cross_validate, GridSearchCV
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 ```
