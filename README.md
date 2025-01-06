@@ -1,4 +1,17 @@
 # Twitter-Hate-Speech-Detection
+This project is focused on detecting hate speech on Twitter using a combination of data preprocessing, exploratory data analysis (EDA), and machine learning techniques. The process is implemented in a Jupyter Notebook and involves the following steps:
+
+**1. Importing Libraries:** Various libraries are used including: 
+`datasets` and `tweet-preprocessor`, `scikit-learn` for machine learning tasks such as vectorization, model building, and evaluation.
+
+**2. Data Loading and Preprocessing:** The dataset is loaded using Hugging Face's datasets library. Tweets are preprocessed to remove noise and irrelevant characters using regular expressions and the tweet-preprocessor library.
+
+**3. Exploratory Data Analysis:** The data is explored to understand its structure and distribution. Visualizations like word clouds and bar charts are created to gain insights into the data.
+
+**4. Model Building:** A Decision Tree Classifier is built using scikit-learn. The dataset is split into training and testing sets, and the model is evaluated using various metrics such as accuracy, precision, recall, and confusion matrix.
+
+**5. Evaluation**: The performance of the model is assessed and visualized to understand its effectiveness in detecting hate speech.
+
 
 ### Installation
 ---
